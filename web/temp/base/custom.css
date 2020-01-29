@@ -1,0 +1,105 @@
+/* here you can put your own css to customize and override the theme */
+
+body.m-content--skin-light2{
+    background-color:#f2f3f8
+}
+
+.help-block, .help-block-error {
+    color: brown;
+}
+
+.form-control, .form-control[readonly] {
+    border-color: #cecece;
+}
+
+.m-login.m-login--1 .m-login__wrapper .m-login__form .m-form__group .form-control {
+    padding-left: 1rem;
+}
+
+.m-error-6 .m-error_container .m-error_subtitle>h1 {
+    margin-top: 5rem;
+}
+
+.m-error-6 .m-error_container .m-error_description {
+    margin-top: 0px;
+}
+
+.yii-debug-toolbar:not(.yii-debug-toolbar_active) {
+    width: 60px;
+}
+
+.yii-debug-toolbar:not(.yii-debug-toolbar_active) .yii-debug-toolbar__bar, .yii-debug-toolbar.yii-debug-toolbar_animating .yii-debug-toolbar__bar {
+    height: 20px !important;
+}
+
+.yii-debug-toolbar:not(.yii-debug-toolbar_active) .yii-debug-toolbar__toggle {
+    right: 0px;
+}
+
+.yii-debug-toolbar:not(.yii-debug-toolbar_active) .yii-debug-toolbar__toggle, .yii-debug-toolbar__external {
+    height: 20px !important;
+}
+
+.yii-debug-toolbar:not(.yii-debug-toolbar_active) .yii-debug-toolbar__block img {
+    vertical-align: top !important;
+    width: 15px !important;
+    height: 15px !important;
+}
+
+form div.required div label.col-form-label:after {
+    content:" * ";
+    color:red;
+}
+
+.custom-paging {
+    margin-top: 20px;
+}
+
+.custom-paging ul {
+    display: inline;
+}
+
+.custom-paging ul li {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 0;
+}
+
+.custom-paging ul li a {
+    cursor: pointer;
+    display: inline-block;
+    height: 2.25rem;
+    min-width: 2.25rem;
+    vertical-align: middle;
+    padding: .5rem;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 400;
+    border-collapse: separate; 
+}
+
+.custom-paging ul li.active {
+    background-color: #805cec;
+}
+
+.custom-paging ul li.active a {
+    color: white;
+}
